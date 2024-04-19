@@ -22,7 +22,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">olume of Pyramid, in PHP</span>
+        <span class="mdl-layout-title">Volume of Pyramid, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -45,3 +45,20 @@
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-pyramid">
+            <label class="mdl-textfield__label" for="height-of-rectangle">Height of pyramid (mm)</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          <!-- Accent-colored raised button with ripple -->
+          <br />
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+            Calculate
+          </button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
