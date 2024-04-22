@@ -37,13 +37,13 @@
           $heightOfPyramid = $_POST["height-of-pyramid"];
 
           // process
-          $volume = ($lengthOfTrapezoid + $basebOfTrapezoid) / 2 * $heightOfTrapezoid;
+          $volume = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
 
           // output
-          echo "If a trapezoid has bases = " . $baseaOfTrapezoid . $basebOfTrapezoid . " mm and the height = " . $heightOfTrapezoid . " mm.";
+          echo "If pyramid has length = " . $lengthOfPyramid . " mm and the width = " . $widthOfPyramid . " mm and the height = " . $heightOfPyramid. " mm. ";
           echo "<br />";
           echo "<br />";
-          echo "The area of the trapezoid is " . $area . " mm².";
+          echo "The area of the trapezoid is " . $volume . " mm³.";
           ?>
         </div>
       </div>
