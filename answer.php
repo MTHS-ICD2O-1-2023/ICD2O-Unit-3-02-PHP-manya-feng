@@ -41,7 +41,7 @@
             echo "If pyramid has length = " . $lengthOfPyramid . " mm and the width = " . $widthOfPyramid . " mm and the height = " . $heightOfPyramid. " mm. ";
             echo "<br />";
             echo "<br />";
-            echo "The area of the trapezoid is " . $volume . " mm³.";
+            echo "The area of the trapezoid is " . round($volume, 2) . " mm³.";
             ?>
           </div>
         </div>
